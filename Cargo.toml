@@ -1,0 +1,15 @@
+[package]
+name = "crypt"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = "0.4.5"
+base64 = "0.13.0"
+hex = "0.4.3"
+
+[dependencies.rocket_contrib]
+version = "0.4.5"
+features = ["handlebars_templates"]
